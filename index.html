@@ -7,142 +7,148 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="양유정 포트폴리오 홈">
-        <span class="brand-mark">YJ</span>
-        <span>양유정 Portfolio</span>
+    <header class="navbar">
+      <a class="logo" href="#home" aria-label="HOME으로 이동">
+        <span class="logo-mark">YJ</span>
+        <span>Yang Yujeong</span>
       </a>
-      <nav class="nav" aria-label="주요 섹션">
-        <a href="#intro">소개</a>
-        <a href="#education">이력</a>
-        <a href="#activities">활동</a>
-        <a href="#vision">비전</a>
+      <nav class="nav-menu" aria-label="포트폴리오 메뉴">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#activities">ACTIVITIES</a>
+        <a href="#contact">CONTACT</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Materials Chemistry Engineering</p>
-          <h1 id="hero-title">예비 반도체 엔지니어<br>양유정</h1>
-          <p class="hero-text">
-            소재의 특성을 이해하고 최적의 공정을 설계하며, 수율 향상과 공정 혁신에 기여하는 엔지니어를 목표로 성장하고 있습니다.
+    <main>
+      <section id="home" class="section home-section">
+        <div class="home-content">
+          <p class="section-kicker">Semiconductor Process Portfolio</p>
+          <h1>예비 반도체 엔지니어 양유정</h1>
+          <p class="subtitle">재료화학공학 기반으로 공정과 소재를 이해하는 엔지니어를 목표로 합니다.</p>
+          <p class="home-description">
+            소재의 화학적 특성이 실제 공정에 미치는 영향을 탐구하며, 이차전지와 반도체 산업의 공정 이해를 넓혀가고 있습니다. 학업, 교육, 멘토링, 학회 활동을 통해 기술적 역량과 협업 역량을 함께 키우는 중입니다.
           </p>
-          <div class="hero-actions" aria-label="포트폴리오 요약">
-            <a class="primary-link" href="#activities">주요 활동 보기</a>
-            <a class="secondary-link" href="#education">이력 확인</a>
+          <div class="button-row">
+            <a class="primary-button" href="#about">소개 보기</a>
+            <a class="outline-button" href="#activities">활동 보기</a>
           </div>
         </div>
-        <figure class="hero-visual">
-          <img src="./assets/images/image4.jpg" alt="RC 프로그램에서 다국적 학생들과 함께 찍은 활동 사진">
-          <figcaption>융합적 사고와 글로벌 협업 경험</figcaption>
-        </figure>
-      </section>
-
-      <section id="intro" class="section intro-section" aria-labelledby="intro-title">
-        <div class="section-heading">
-          <p class="eyebrow">Intro</p>
-          <h2 id="intro-title">소재와 공정을 연결하는 시선</h2>
-        </div>
-        <div class="intro-card">
-          <p>
-            저는 한양대학교 ERICA 재료화학공학과에 재학 중이며, 물질의 화학적 성질이 실제 산업 공정에 어떤 영향을 주는지에 깊은 관심을 가지고 있습니다.
-          </p>
-          <p>
-            이차전지 특성화 사업단과 배터리 교육을 통해 첨단 산업의 공정 기초를 다졌고, 이를 반도체 산업의 공정 설계와 수율 개선 역량으로 확장하고자 합니다.
-          </p>
+        <div class="home-panel" aria-label="포트폴리오 핵심 요약">
+          <div class="panel-card strong">
+            <span>Major</span>
+            <strong>재료화학공학</strong>
+          </div>
+          <div class="panel-card">
+            <span>Interest</span>
+            <strong>반도체 공정 · 소재 특성</strong>
+          </div>
+          <div class="panel-card">
+            <span>Goal</span>
+            <strong>수율 향상에 기여하는 공정 엔지니어</strong>
+          </div>
         </div>
       </section>
 
-      <section id="education" class="section split-section" aria-labelledby="education-title">
-        <div class="section-heading">
-          <p class="eyebrow">Education & Certificate</p>
-          <h2 id="education-title">이력 사항</h2>
+      <section id="about" class="section about-section">
+        <div class="section-title">
+          <p class="section-kicker">ABOUT</p>
+          <h2>전공과 관심 분야</h2>
+          <p>재료화학공학을 바탕으로 첨단 산업의 공정과 소재를 함께 이해하는 방향으로 역량을 쌓고 있습니다.</p>
         </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span class="timeline-date">현재</span>
-            <h3>한양대학교 ERICA</h3>
-            <p>재료화학공학과 3학년 재학 중</p>
+        <div class="about-grid">
+          <article class="info-card">
+            <span class="card-number">01</span>
+            <h3>전공</h3>
+            <p>한양대학교 ERICA 재료화학공학과 3학년에 재학 중입니다. 물질의 구조, 성질, 반응이 실제 산업 공정에 연결되는 과정을 학습하고 있습니다.</p>
           </article>
-          <article class="timeline-item">
-            <span class="timeline-date">2025 ~ 현재</span>
-            <h3>이차전지 특성화 대학 사업단</h3>
-            <p>첨단 산업 공정의 기초와 소재 이해 역량을 축적하고 있습니다.</p>
+          <article class="info-card">
+            <span class="card-number">02</span>
+            <h3>관심 분야</h3>
+            <p>반도체 공정, 소재 특성, 이차전지 제조 공정에 관심이 있습니다. 특히 소재의 특성이 공정 안정성과 품질에 미치는 영향을 탐구하고 싶습니다.</p>
           </article>
-          <article class="timeline-item">
-            <span class="timeline-date">2026</span>
-            <h3>OPIc English Proficiency</h3>
-            <p>IL 등급 취득, 현재 IH/AL 목표로 영어 커뮤니케이션 역량을 강화하고 있습니다.</p>
+          <article class="info-card">
+            <span class="card-number">03</span>
+            <h3>진로 목표</h3>
+            <p>공정 데이터를 이해하고 문제 원인을 분석하여 수율 향상과 공정 혁신에 기여하는 반도체 공정 엔지니어로 성장하는 것이 목표입니다.</p>
           </article>
         </div>
-        <figure class="evidence-card">
-          <img src="./assets/images/image1.jpg" alt="OPIc 성적 확인 화면">
-          <figcaption>OPIc IL 취득 및 상위 등급 목표</figcaption>
-        </figure>
       </section>
 
-      <section id="activities" class="section activities-section" aria-labelledby="activities-title">
-        <div class="section-heading">
-          <p class="eyebrow">Activities</p>
-          <h2 id="activities-title">주요 활동</h2>
+      <section id="activities" class="section activities-section">
+        <div class="section-title">
+          <p class="section-kicker">ACTIVITIES</p>
+          <h2>주요 활동</h2>
+          <p>전공 지식, 글로벌 소통, 협업 경험을 균형 있게 쌓아온 활동들입니다.</p>
         </div>
         <div class="activity-grid">
           <article class="activity-card">
-            <img src="./assets/images/image2.jpg" alt="한국배터리아카데미 수료증">
-            <div>
-              <span class="activity-label">01</span>
+            <img src="./assets/images/image2.jpg" alt="한국배터리 아카데미 수료증">
+            <div class="activity-body">
+              <span class="activity-tag">Battery</span>
               <h3>한국배터리 아카데미 수료</h3>
-              <p>배터리 핵심 기술 기초 교육을 통해 셀 제조 공정과 소재 특성의 기본 구조를 학습했습니다.</p>
+              <p>배터리 핵심 기술 기초 교육 과정을 통해 셀 제조 공정과 소재 특성에 대한 기본 개념을 학습했습니다.</p>
+              <div class="learned">
+                <strong>배운 점</strong>
+                <span>공정 단계별 소재 특성의 중요성과 첨단 산업에서 기초 이론을 실제 공정 이해로 연결하는 방법을 배웠습니다.</span>
+              </div>
             </div>
           </article>
+
           <article class="activity-card">
-            <img src="./assets/images/image3.jpg" alt="RC 멘토링 글로벌 교류 활동 사진">
-            <div>
-              <span class="activity-label">02</span>
+            <img src="./assets/images/image4.jpg" alt="RC 멘토링 프로그램에서 학생들과 함께한 사진">
+            <div class="activity-body">
+              <span class="activity-tag">Communication</span>
               <h3>RC 멘토링 프로그램</h3>
-              <p>다양한 전공과 국적의 학생들과 교류하며 융합적 사고를 넓히고, 글로벌 카페와 언어 카페에서 실전 영어 태도를 길렀습니다.</p>
+              <p>다양한 전공 및 다국적 학생들과 교류하며 글로벌 카페와 언어 카페 활동에 참여했습니다.</p>
+              <div class="learned">
+                <strong>배운 점</strong>
+                <span>영어 회화에 대한 부담을 낮추고, 서로 다른 배경을 가진 사람들과 협력하는 태도와 융합적 사고를 길렀습니다.</span>
+              </div>
             </div>
           </article>
+
           <article class="activity-card">
             <img src="./assets/images/image6.jpg" alt="기지개 학회 공연 후 단체 사진">
-            <div>
-              <span class="activity-label">03</span>
+            <div class="activity-body">
+              <span class="activity-tag">Teamwork</span>
               <h3>기지개 학회 활동</h3>
-              <p>교내 춤 동아리 활동을 통해 정기 공연과 연습에 참여하며 팀워크와 협업 능력을 키웠습니다.</p>
+              <p>교내 춤 동아리 기지개 부원으로 정기 공연과 연습에 적극적으로 참여했습니다.</p>
+              <div class="learned">
+                <strong>배운 점</strong>
+                <span>공동 목표를 위해 꾸준히 연습하고 역할을 맞춰가는 과정에서 책임감, 협업 능력, 팀워크를 배웠습니다.</span>
+              </div>
             </div>
           </article>
         </div>
       </section>
 
-      <section id="vision" class="section vision-section" aria-labelledby="vision-title">
-        <div class="vision-copy">
-          <p class="eyebrow">Vision</p>
-          <h2 id="vision-title">공정 혁신을 만드는 엔지니어로</h2>
-          <p>
-            재료화학공학의 이론적 기반 위에 이차전지와 반도체 공정 이해를 쌓아, 소재 특성과 공정 조건 사이의 관계를 분석하는 엔지니어로 성장하겠습니다.
-          </p>
+      <section id="contact" class="section contact-section">
+        <div class="section-title">
+          <p class="section-kicker">CONTACT</p>
+          <h2>연락처</h2>
+          <p>포트폴리오 제출용 정보 영역입니다. 이메일은 필요에 맞게 수정해서 사용할 수 있습니다.</p>
         </div>
-        <div class="vision-points" aria-label="핵심 역량">
+        <div class="contact-card">
           <div>
-            <strong>소재 이해</strong>
-            <span>물질의 화학적 특성과 공정 영향 분석</span>
+            <span>이름</span>
+            <strong>양유정</strong>
           </div>
           <div>
-            <strong>공정 관점</strong>
-            <span>셀 제조 및 첨단 산업 공정 기초 학습</span>
+            <span>전공</span>
+            <strong>한양대학교 ERICA 재료화학공학과</strong>
           </div>
           <div>
-            <strong>협업 역량</strong>
-            <span>다국적 교류와 무대 활동을 통한 팀워크</span>
+            <span>이메일</span>
+            <strong>your-email@example.com</strong>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>2026 양유정 포트폴리오</p>
-      <p>Semiconductor Process Engineer Portfolio</p>
+      <p>2026 Yang Yujeong Portfolio</p>
+      <p>Semiconductor Process Engineer</p>
     </footer>
   </body>
 </html>
