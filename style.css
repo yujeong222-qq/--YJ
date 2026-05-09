@@ -231,10 +231,17 @@ a {
 .about-grid,
 .activity-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 22px;
   max-width: 1180px;
   margin: 0 auto;
+}
+
+.about-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.activity-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .info-card,
@@ -383,10 +390,13 @@ a {
     min-height: auto;
   }
 
-  .about-grid,
   .activity-grid,
   .contact-card {
     grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contact-card div + div {
@@ -427,5 +437,9 @@ a {
   .activity-body,
   .contact-card div {
     padding: 22px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
   }
 }
